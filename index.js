@@ -6,7 +6,7 @@ const cors = require('cors')
 const app = express()
 require('dotenv').config()
 
-const port = process.env.Port
+const port = process.env.PORT
 const url = process.env.DB_URL
 
 app.use(express.json())
